@@ -7,7 +7,7 @@ const ListaSuspensa = (props)=>{
     return (
 
         // ISSO SEMPRE VAI APARECER QUANDO QUERO RENDERIZAR UMA LISTA NA TELA
-        <div>
+        <div className = 'Lista-Suspensa'>
             <label>{props.label}</label>
             <select>
                 {props.itens.map(item => {
