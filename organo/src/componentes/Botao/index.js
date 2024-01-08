@@ -3,7 +3,9 @@ import './Botao.css'
 const Botao = (props) => {
 
     return ( 
-        <butt
+        <button className = 'botao'>
+            {props.texto}
+        </button>
  
     )
 
