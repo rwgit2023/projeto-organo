@@ -17,6 +17,7 @@ const Formulario = () => {
     ]
 
     //garante que ao clicar no botao a pagina não sera recarregada.
+    // esse evento é padrão do JS evento.preventDefault() serve para não deixar a pagina recarregar
     const aoSalvar = (evento) =>{
         evento.preventDefault()
         console.log ('submetido')
